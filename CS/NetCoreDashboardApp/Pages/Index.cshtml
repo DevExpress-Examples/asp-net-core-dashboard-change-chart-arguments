@@ -1,0 +1,37 @@
+@page
+
+
+<script>
+	function onItemCaptionToolbarUpdated(e) {
+		if (e.itemName == 'listBoxDashboardItem1') {
+			e.options.actionItems.push({
+				text: 'Custom Menu',
+				type: "menu",
+				menu: {
+					type: 'list',
+					items: ['Category Name Argument', 'Country'],
+					selectionMode: 'single',
+					itemClick: function (e) {
+						var viewerAPI = dashboardControl.findExtension("viewer-api");
+						var tabContainerComponentName = "tabContainerDashboardItem1";
+						if (e == 'Category Name Argument')
+							viewerAPI.setSelectedTabPageIndex(tabContainerComponentName, 0);
+						else
+							viewerAPI.setSelectedTabPageIndex(tabContainerComponentName, 1);
+					}
+				},
+			})
+		}
+	}
+</script>
+
+<div style="position: absolute; left: 0; top: 0; right: 0; bottom: 0;">
+@(Html.DevExpress().Dashboard("dashboardControl")
+    .Width("100%")
+    .Height("100%")
+    .UseNeutralFilterMode(true)
+	.WorkingMode(DevExpress.DashboardWeb.WorkingMode.ViewerOnly)
+    .OnBeforeRender("onBeforeRender")
+    .Extensions(ext => ext.ViewerApi(vApi => vApi.OnItemCaptionToolbarUpdated("onItemCaptionToolbarUpdated")))
+)
+</div>
