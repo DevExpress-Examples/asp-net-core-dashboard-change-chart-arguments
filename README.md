@@ -7,10 +7,10 @@ To implement automation, add custom buttons to any dashboard item title and then
 As for switching between the tabs, you can use the [setSelectedTabPage](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.ViewerApiExtension#js_devexpress_dashboard_viewerapiextension_setselectedtabpage_tabpagename_) or [setSelectedTabPageIndex](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.ViewerApiExtension#js_devexpress_dashboard_viewerapiextension_setselectedtabpageindex_tabcontainername_index_) function.
 
 Also, you can modify the dashboard XML definition to hide the tab container’s caption, add the ShowCaption property and set it to false:
-....
+```
 <TabContainer ComponentName="tabContainerDashboardItem1" Name="Tab Container 1" ShowCaption="false">
 <Pages>
-....
+```
 
 <!-- default file list --> 
 *Files to look at*:
