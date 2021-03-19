@@ -1,5 +1,10 @@
 # Dashboard for ASP.NET Core - How to change chart arguments at runtime
 
+<!-- default file list --> 
+*Files to look at*:
+* [Index](./CS/NetCoreDashboardApp/Pages/Index.cshtml)
+<!-- default file list end -->
+
 This example uses a custom menu in a List Box item to change Chart items with different settings in a tab container.
 Our Dashboard doesn't support the ability to customize a Chart item and change its settings at runtime. A possible way is to create a tab container, add different chart items to it, and manually set the group interval property of each chart.
 
@@ -11,8 +16,3 @@ Also, you can modify the dashboard XML definition to hide the tab container’s 
 <TabContainer ComponentName="tabContainerDashboardItem1" Name="Tab Container 1" ShowCaption="false">
 <Pages>
 ```
-
-<!-- default file list --> 
-*Files to look at*:
-* [Index](./CS/NetCoreDashboardApp/Pages/Index.cshtml)
-<!-- default file list end -->
