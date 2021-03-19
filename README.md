@@ -15,7 +15,5 @@ Also, you can modify the dashboard XML definition to hide the tab container’s 
 <!-- default file list --> 
 *Files to look at*:
 
-* [Default.aspx](./CS/Default.aspx)
-* [Default.aspx.cs](./CS/Default.aspx.cs)
-* ...
+* [Index.cshtm](./CS/NetCoreDashboardApp/Pages/Index.cshtm)
 <!-- default file list end -->
