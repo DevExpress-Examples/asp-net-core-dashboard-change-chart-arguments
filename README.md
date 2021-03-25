@@ -1,4 +1,4 @@
-# Dashboard for ASP.NET Core - How tochange chart arguments at runtime
+# Dashboard for ASP.NET Core - How to change chart arguments at runtime
 
 This example demonstrates how to change Chart items with different settings in a tab container using a custom menu in a List Box item.
 Our Dashboard doesn't allow customizing a Chart item and changing its settings at runtime. A possible way is to create a tab container, add different chart items there, and manually set the group interval property of each chart. 
