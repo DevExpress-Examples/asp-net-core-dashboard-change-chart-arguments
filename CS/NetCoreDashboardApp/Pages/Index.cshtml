@@ -3,18 +3,18 @@
 
 <script>
 	function onItemCaptionToolbarUpdated(e) {
-		if (e.itemName == 'listBoxDashboardItem1') {
-			e.options.actionItems.push({
-				text: 'Custom Menu',
+		if (e.itemName === 'chartDashboardItem1' || e.itemName === 'chartDashboardItem2') {
+			e.options.stateItems.push({
+				text: 'Switch Arguments',
 				type: "menu",
 				menu: {
 					type: 'list',
-					items: ['Category Name Argument', 'Country'],
+					items: ['OrderDate - Year', 'OrderDate - Month-Year'],
 					selectionMode: 'single',
-					itemClick: function (e) {
+					itemClick: function (item) {
 						var viewerAPI = dashboardControl.findExtension("viewer-api");
 						var tabContainerComponentName = "tabContainerDashboardItem1";
-						if (e == 'Category Name Argument')
+						if (item === 'OrderDate - Year')
 							viewerAPI.setSelectedTabPageIndex(tabContainerComponentName, 0);
 						else
 							viewerAPI.setSelectedTabPageIndex(tabContainerComponentName, 1);
@@ -26,7 +26,7 @@
 </script>
 
 <div style="position: absolute; left: 0; top: 0; right: 0; bottom: 0;">
-@(Html.DevExpress().Dashboard("dashboardControl")
+	@(Html.DevExpress().Dashboard("dashboardControl")
     .Width("100%")
     .Height("100%")
     .UseNeutralFilterMode(true)
