@@ -16,3 +16,8 @@ Also, you can modify the dashboard XML definition to hide the tab container’s 
 <TabContainer ComponentName="tabContainerDashboardItem1" Name="Tab Container 1" ShowCaption="false">
 <Pages>
 ```
+
+<!-- default file list --> 
+*Files to look at*:
+
+* [Index.cshtm](./CS/NetCoreDashboardApp/Pages/Index.cshtm)
