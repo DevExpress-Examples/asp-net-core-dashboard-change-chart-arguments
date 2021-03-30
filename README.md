@@ -5,6 +5,9 @@
 <!-- default file list end -->
 
 # ASP.NET Core Dashboard - How to change chart arguments at runtime
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/349487138/)**
+<!-- run online end -->
 
 This example adds a popup menu to the dashboard item caption. This menu allows users to switch between Chart items with different settings.
 
