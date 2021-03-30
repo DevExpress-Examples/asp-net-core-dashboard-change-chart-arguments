@@ -1,4 +1,7 @@
 # Dashboard for ASP.NET Core - How to change chart arguments at runtime
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/349487138/)**
+<!-- run online end -->
 
 <!-- default file list --> 
 *Files to look at*:
