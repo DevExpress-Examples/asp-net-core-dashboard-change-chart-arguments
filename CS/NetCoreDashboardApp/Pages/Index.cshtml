@@ -1,6 +1,5 @@
 @page
 
-
 <script>
 	function onItemCaptionToolbarUpdated(e) {
 		if (e.itemName === 'chartDashboardItem1' || e.itemName === 'chartDashboardItem2') {
@@ -27,11 +26,12 @@
 
 <div style="position: absolute; left: 0; top: 0; right: 0; bottom: 0;">
 	@(Html.DevExpress().Dashboard("dashboardControl")
-    .Width("100%")
-    .Height("100%")
-    .UseNeutralFilterMode(true)
-	.WorkingMode(DevExpress.DashboardWeb.WorkingMode.ViewerOnly)
-    .OnBeforeRender("onBeforeRender")
-    .Extensions(ext => ext.ViewerApi(vApi => vApi.OnItemCaptionToolbarUpdated("onItemCaptionToolbarUpdated")))
-)
+        .ControllerName("DefaultDashboard")
+        .Width("100%")
+        .Height("100%")
+        .UseNeutralFilterMode(true)
+        .WorkingMode(DevExpress.DashboardWeb.WorkingMode.ViewerOnly)
+        .OnBeforeRender("onBeforeRender")
+        .Extensions(ext => ext.ViewerApi(vApi => vApi.OnItemCaptionToolbarUpdated("onItemCaptionToolbarUpdated")))
+	)
 </div>
