@@ -4,17 +4,17 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-<!-- default file list --> 
-*Files to look at*:
-* [Index](./CS/NetCoreDashboardApp/Pages/Index.cshtml)
-<!-- default file list end -->
-
 # ASP.NET Core Dashboard - How to change chart arguments at runtime
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/349487138/)**
 <!-- run online end -->
 
 This example adds a popup menu to the dashboard item caption. This menu allows users to switch between Chart items with different settings.
+
+<!-- default file list --> 
+## Files to Look At
+* [Index](./CS/NetCoreDashboardApp/Pages/Index.cshtml)
+<!-- default file list end -->
 
 ## Example Structure
 
@@ -30,4 +30,3 @@ You can also modify the dashboard XML definition to hide the tab container’s c
 
 - [Dashboard Item Caption](https://docs.devexpress.com/Dashboard/117384/web-dashboard/ui-elements-and-customization/ui-elements/dashboard-item-caption)
 - [Extensions Overview](https://docs.devexpress.com/Dashboard/117543/web-dashboard/ui-elements-and-customization/extensions-overview)
- 
