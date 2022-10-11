@@ -21,7 +21,7 @@ You can also modify the dashboard XML definition to hide the tab container’s c
 
 ## Files to Review
 
-* [Index](./CS/NetCoreDashboardApp/Pages/Index.cshtml)
+* [Index.cshtml](./CS/NetCoreDashboardApp/Pages/Index.cshtml)
 
 ## Documentation
 
