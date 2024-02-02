@@ -8,7 +8,7 @@
                 items: ['OrderDate - Year', 'OrderDate - Month-Year'],
                 selectionMode: 'single',
                 itemClick: function (item) {
-                    var viewerAPI = dashboardControl.findExtension("viewer-api");
+                    var viewerAPI = dashboardControl.findExtension("viewerApi");
                     var tabContainerComponentName = "tabContainerDashboardItem1";
                     if (item === 'OrderDate - Year')
                         viewerAPI.setSelectedTabPageIndex(tabContainerComponentName, 0);
