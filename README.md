@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# Dashboard for ASP.NET Core - How to change chart arguments at runtime
+# BI Dashboard for ASP.NET Core - How to change chart arguments at runtime
 
 This example adds a popup menu to the dashboard item caption. This menu allows users to switch between Chart items with different settings.
 
