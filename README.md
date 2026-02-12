@@ -28,7 +28,7 @@ You can also modify the dashboard XML definition to hide the tab container’s c
 - [Dashboard Item Caption](https://docs.devexpress.com/Dashboard/117384/web-dashboard/ui-elements-and-customization/ui-elements/dashboard-item-caption)
 - [Extensions Overview](https://docs.devexpress.com/Dashboard/117543/web-dashboard/ui-elements-and-customization/extensions-overview)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-core-dashboard-change-chart-arguments&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-core-dashboard-change-chart-arguments&~~~was_helpful=no)
 
